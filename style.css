@@ -1,0 +1,172 @@
+/*
+ * Header/Main Menu 
+ */
+#barTopLogo img {
+    -webkit-filter: contrast(0%);
+}
+#barTopMenu a {
+    color: #585858;
+}
+#barTopMenu li span {
+    -webkit-filter: contrast(30%) grayscale(100%);
+}
+#barTopMenu li.active a {
+    color: #8A0808;
+}
+#barTopMenu li.active span {
+    -webkit-filter: contrast(0%) grayscale(100%);
+}
+#barBottomContainer {
+    background-color: #F5DA81;
+    border: 1px #1e3e70;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+/*
+ * Current Page/Info Bar
+ */
+#barBottomContainer a,#barBottomContainer a:link,#barBottomContainer a:visited,#layout_footer a,#layout_footer a:link,#layout_footer a:visited,#tabs a,#tabs a:link,#tabs a:visited {
+    color: #fff;
+}
+#barBottomContainer a:hover, #layout_footer a:hover, #tabs a:hover {
+    color: #D8D8D8;
+}
+#barBottomLeft {
+    background-color: #8A0808;
+    color: #fff;
+}
+#barBottomLeft:before {
+    border-left-color: #8A0808;
+}
+#barBottommiddle {
+    background-color: #8A0808;
+    color: #fff;
+}
+#barBottommiddle:before {
+    background-color: #8A0808;
+    background-image: linear-gradient(to right,#2A0A0A,#8A0808);
+}
+#barBottomright {
+    background-color: #8A0808;
+    color: #fff;
+    height: 24px;
+    line-height: 24px;
+    padding: 0;
+    vertical-align: middle;
+}
+#barBottomright:before {
+    background-color: #8A0808;
+    background-image: linear-gradient(to right,#8A0808,#8A0808);
+}
+/* Notification Marker */
+#notification_marker {
+    background-color: #B40404;
+}
+#notification_marker.alert {
+    background-color: #FF0000;
+}
+/* Quicksearch Box */
+input.quicksearchbox {
+    background-color: #fff;
+    border: 1px solid #B40404;
+    color: #000;
+}
+
+/*
+ * Background
+ */
+ body {
+    background-color: #F2F2F2;
+    background-image: url(https://sapui5.netweaver.ondemand.com/sdk/theme/img/bg_white_transparent.png), -webkit-linear-gradient(top, #EEE 10%, #FAFAFA 100%);
+    background-repeat: repeat, no-repeat;
+}
+#header {
+    background-image: url(https://sapui5.netweaver.ondemand.com/sdk/theme/img/bg_white_transparent.png), -webkit-linear-gradient(30deg, #EEE 0%, rgb(244, 247, 249) 85%);
+}
+#layout_container {
+    background: #fff;
+}
+#layout_footer {
+    background-color: #8A0808;
+    border-top: 1px solid #B40404;
+}
+#layout_page {
+    box-shadow: -3px 3px 3px #888;
+}
+#layout_sidebar {
+    background: inherit;
+    border-left: 1px dashed #8A0808;
+}
+div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix {
+    background-color: #8A0808;
+}
+
+/*
+ * Tabs
+ */
+#tabs li {
+    background-color: #B40404;
+    border-bottom: 1px solid #610B0B;
+    border-right: 1px solid #610B0B;
+}
+#tabs li.current {
+    border-bottom: none;
+}
+
+/*
+ * Images
+ */
+.avatar, .mark_as_read {
+    -webkit-filter: contrast(50%) grayscale(100%);
+}
+
+/*
+ * Section Headers
+ */
+.table_header_bold {
+    background-color: #DDD;
+    border-color: #8A0808;
+    color: #2e2e2e;
+    font-size: 1.1em;
+}
+.table_header_bold img {
+    -webkit-filter: contrast(0%) grayscale(100%);
+}
+.ui-widget-header {
+    border: 1px solid #8A0808;
+}
+
+/*
+ * Links
+ */
+a, a:link, a:visited, #tabs li.current a, #tabs li.current a:link, #tabs li.current a:visited, #notification_container a, #notification_container a:link, #notification_container a:visited {
+    color: #424242;
+}
+
+a:hover, #tabs li.current a:hover, #notification_container a:hover {
+    color: #B40404;
+}
+
+/*
+ * Tables
+ */
+table.default tbody th {
+    background-color: #FBEFEF;
+    border-bottom: 1px solid rgba(137,154,185,0.2);
+    border-top: 1px solid #8A0808;
+    text-align: left;
+}
+table.default tbody tr:last-child td {
+    border-bottom: 1px solid #8A0808;
+}
+table.default tfoot td {
+    background-color: #FBEFEF;
+    border-top: 1px solid #8A0808;
+}
+table.default thead th {
+    background-color: #DDD;
+    border-bottom: 1px solid rgba(137,154,185,0.2);
+    border-top: 1px solid #8A0808;
+    color: #2E2E2E;
+    font-size: 1.0em;
+}
