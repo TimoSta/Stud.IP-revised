@@ -77,11 +77,11 @@ input.quicksearchbox {
  */
  body {
     background-color: #F2F2F2;
-    background-image: url(https://sapui5.netweaver.ondemand.com/sdk/theme/img/bg_white_transparent.png), -webkit-linear-gradient(top, #EEE 10%, #FAFAFA 100%);
+    background-image: url(https://github.com/TimoSta/Stud.IP-revised/raw/master/resources/background.png), -webkit-linear-gradient(top, #EEE 10%, #FAFAFA 100%);
     background-repeat: repeat, no-repeat;
 }
 #header {
-    background-image: url(https://sapui5.netweaver.ondemand.com/sdk/theme/img/bg_white_transparent.png), -webkit-linear-gradient(30deg, #EEE 0%, rgb(244, 247, 249) 85%);
+    background-image: url(https://github.com/TimoSta/Stud.IP-revised/raw/master/resources/background.png), -webkit-linear-gradient(30deg, #EEE 0%, rgb(244, 247, 249) 85%);
 }
 #layout_container {
     background: #fff;
