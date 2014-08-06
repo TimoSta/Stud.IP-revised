@@ -1,4 +1,7 @@
-The CSS in style.css can be used to improve the Design of Stud.IP 3.0 for University of Passau. It replaces the standard blue Theme with a modern red/grey one.
+Stud.IP-revised
+===============
+
+This is an improved design for Stud.IP 3.0 for University of Passau. It replaces the standard blue Theme with a modern red/grey one.
 
 So far, only Google Chrome is supported.
 
